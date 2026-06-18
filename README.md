@@ -20,6 +20,7 @@
 
 <a href="https://github.com/n8n-io/n8n/pull/30172"><img src="https://img.shields.io/badge/Contributor-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /></a>
 <a href="https://github.com/supabase/supabase/pull/45762"><img src="https://img.shields.io/badge/Contributor-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /></a>
+<a href="https://github.com/vercel/next.js/pull/94934"><img src="https://img.shields.io/badge/Contributor-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /></a>
 
 </div>
 
@@ -58,6 +59,7 @@ Merged PRs in production codebases used by millions of developers:
 |---------|-----|-------------|
 | [**n8n**](https://github.com/n8n-io/n8n) · 100k+ ⭐ | [#30172](https://github.com/n8n-io/n8n/pull/30172) ✅ Merged | Fixed Bitbucket credential validation — scoped API tokens were incorrectly rejected due to missing `username` field; switched to `account_id` as the stable identifier |
 | [**Supabase**](https://github.com/supabase/supabase) · 80k+ ⭐ | [#45762](https://github.com/supabase/supabase/pull/45762) ✅ Merged | Fixed grammar bug and added `aria-label` to icon-only buttons in the Studio grid editor for WCAG 2.1 accessibility compliance |
+| [**Next.js**](https://github.com/vercel/next.js) · 130k+ ⭐ | [#94934](https://github.com/vercel/next.js/pull/94934) ✅ Merged | Fixed broken Node.js inspector URL in the debugging guide — old `/en/docs/inspector` path returned 404 after Node.js restructured their docs site |
 
 ## 📦 Own Open Source
 
