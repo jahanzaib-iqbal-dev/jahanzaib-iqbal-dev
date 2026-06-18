@@ -24,7 +24,6 @@
 
 **Software engineer turned founder.** I build full-stack products, AI systems, and scale engineering teams.
 
-- 🏢 Co-founder & Director at **[Global Software Consulting](https://gsoftconsulting.com)** — 40+ engineers, 5 countries
 - 🚀 Ex-Technical Team Lead at **Obenan** — built from zero to **$1M+ ARR**, 1,500+ businesses across 43 countries
 - 🤖 Building **agentic AI systems** — MCP servers, RAG pipelines, voice AI, LLM workflows
 - 📍 Based in **Lahore, Pakistan** · available for remote work worldwide
