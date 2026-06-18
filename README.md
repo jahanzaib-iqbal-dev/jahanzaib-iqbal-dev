@@ -16,6 +16,11 @@
 <img src="https://img.shields.io/badge/155%2B%20Projects%20Delivered-222?style=flat-square" />
 <img src="https://img.shields.io/badge/40%2B%20Engineers%20Led-222?style=flat-square" />
 
+<br/>
+
+<a href="https://github.com/n8n-io/n8n/pull/30172"><img src="https://img.shields.io/badge/Contributor-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" /></a>
+<a href="https://github.com/supabase/supabase/pull/45762"><img src="https://img.shields.io/badge/Contributor-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /></a>
+
 </div>
 
 ---
@@ -45,7 +50,16 @@
 
 ---
 
-## 📦 Open Source
+## 🌍 Open Source Contributions
+
+Merged PRs in production codebases used by millions of developers:
+
+| Project | PR | What I fixed |
+|---------|-----|-------------|
+| [**n8n**](https://github.com/n8n-io/n8n) · 100k+ ⭐ | [#30172](https://github.com/n8n-io/n8n/pull/30172) ✅ Merged | Fixed Bitbucket credential validation — scoped API tokens were incorrectly rejected due to missing `username` field; switched to `account_id` as the stable identifier |
+| [**Supabase**](https://github.com/supabase/supabase) · 80k+ ⭐ | [#45762](https://github.com/supabase/supabase/pull/45762) ✅ Merged | Fixed grammar bug and added `aria-label` to icon-only buttons in the Studio grid editor for WCAG 2.1 accessibility compliance |
+
+## 📦 Own Open Source
 
 | Repo | Stars | Description |
 |------|-------|-------------|
