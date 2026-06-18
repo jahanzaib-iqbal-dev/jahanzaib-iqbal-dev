@@ -1,24 +1,14 @@
-<h1 align="center">Hi, I'm Jahanzaib Iqbal 👋</h1>
+# Hi, I'm Jahanzaib Iqbal 👋
 
-<p align="center">
-  <b>Full-Stack & AI Engineer</b> · Lahore, Pakistan 🇵🇰
-</p>
+**Full-Stack & AI Engineer** · Lahore, Pakistan 🇵🇰
 
-<p align="center">
-  <a href="https://jahanzaibiqbal.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-jahanzaibiqbal.com-black?style=flat-square&logo=vercel" />
-  </a>
-  <a href="https://www.linkedin.com/in/jahanzaib-iqbal-49a42b164/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Jahanzaib%20Iqbal-0077B5?style=flat-square&logo=linkedin" />
-  </a>
-  <a href="mailto:jahanzaib@gsoftconsulting.com">
-    <img src="https://img.shields.io/badge/Email-jahanzaib%40gsoftconsulting.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
-  </a>
-</p>
+[![Portfolio](https://img.shields.io/badge/Portfolio-jahanzaibiqbal.com-black?style=flat-square&logo=vercel)](https://jahanzaibiqbal.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jahanzaib%20Iqbal-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/jahanzaib-iqbal-49a42b164/)
+[![Email](https://img.shields.io/badge/Email-jahanzaib%40gsoftconsulting.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jahanzaib@gsoftconsulting.com)
 
 ---
 
-### About Me
+## About Me
 
 I'm a Full-Stack & AI Engineer who enjoys building clean, scalable products — from pixel-perfect frontends to robust backend systems and intelligent AI-powered features.
 
@@ -28,7 +18,7 @@ I'm a Full-Stack & AI Engineer who enjoys building clean, scalable products — 
 
 ---
 
-### Tech Stack
+## Tech Stack
 
 **Frontend**
 
@@ -36,33 +26,23 @@ I'm a Full-Stack & AI Engineer who enjoys building clean, scalable products — 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-**Backend & Infrastructure**
+**Backend & AI**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-**AI & Tools**
-
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
 
-### GitHub Stats
+## GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jahanzaib-iqbal-dev&show_icons=true&theme=dark&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahanzaib-iqbal-dev&layout=compact&theme=dark&hide_border=true" height="150" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jahanzaib-iqbal-dev&show_icons=true&theme=dark&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jahanzaib-iqbal-dev&layout=compact&theme=dark&hide_border=true)
 
 ---
 
-<p align="center">
-  <i>Always open to a good conversation — feel free to reach out.</i>
-</p>
+*Always open to a good conversation — feel free to reach out.*
