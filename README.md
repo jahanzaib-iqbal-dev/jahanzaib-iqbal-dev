@@ -22,6 +22,9 @@
 <a href="https://github.com/supabase/supabase/pull/45762"><img src="https://img.shields.io/badge/Contributor-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /></a>
 <a href="https://github.com/vercel/next.js/pull/94934"><img src="https://img.shields.io/badge/Contributor-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /></a>
 <a href="https://github.com/nodejs/node/pull/63974"><img src="https://img.shields.io/badge/Contributor-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /></a>
+<a href="https://github.com/vercel/ai/pull/16510"><img src="https://img.shields.io/badge/Contributor-Vercel%20AI-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+<a href="https://github.com/langchain-ai/langchainjs/pull/11126"><img src="https://img.shields.io/badge/Contributor-LangChain.js-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" /></a>
+<a href="https://github.com/prisma/prisma/pull/29678"><img src="https://img.shields.io/badge/Contributor-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" /></a>
 
 </div>
 
@@ -62,6 +65,9 @@ Merged PRs in production codebases used by millions of developers:
 | [**Supabase**](https://github.com/supabase/supabase) · 80k+ ⭐ | [#45762](https://github.com/supabase/supabase/pull/45762) ✅ Merged | Fixed grammar bug and added `aria-label` to icon-only buttons in the Studio grid editor for WCAG 2.1 accessibility compliance |
 | [**Next.js**](https://github.com/vercel/next.js) · 130k+ ⭐ | [#94934](https://github.com/vercel/next.js/pull/94934) ✅ Merged | Fixed broken Node.js inspector URL in the debugging guide — old `/en/docs/inspector` path returned 404 after Node.js restructured their docs site |
 | [**Node.js**](https://github.com/nodejs/node) · 110k+ ⭐ | [#63974](https://github.com/nodejs/node/pull/63974) ✅ Merged | Fixed incorrect `keepAliveTimeout` default value documented in `http.createServer` options |
+| [**Vercel AI SDK**](https://github.com/vercel/ai) · 25k+ ⭐ | [#16510](https://github.com/vercel/ai/pull/16510) 🔄 Open | Fixed `http://` → `https://` link in the Vercel deployment guide |
+| [**LangChain.js**](https://github.com/langchain-ai/langchainjs) · 17k+ ⭐ | [#11126](https://github.com/langchain-ai/langchainjs/pull/11126) 🔄 Open | Fixed grammar typo in Groq provider JSDoc (`limits ensures` → `limit ensures`) |
+| [**Prisma**](https://github.com/prisma/prisma) · 46k+ ⭐ | [#29678](https://github.com/prisma/prisma/pull/29678) 🔄 Open | Removed duplicate words across 5 test comments and descriptions |
 
 ## 📦 Own Open Source
 
