@@ -25,6 +25,9 @@
 <a href="https://github.com/vercel/ai/pull/16510"><img src="https://img.shields.io/badge/Contributor-Vercel%20AI-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
 <a href="https://github.com/langchain-ai/langchainjs/pull/11128"><img src="https://img.shields.io/badge/Contributor-LangChain.js-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" /></a>
 <a href="https://github.com/prisma/prisma/pull/29678"><img src="https://img.shields.io/badge/Contributor-Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" /></a>
+<a href="https://github.com/fastapi/fastapi/pull/15903"><img src="https://img.shields.io/badge/Contributor-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /></a>
+<a href="https://github.com/microsoft/autogen/pull/7903"><img src="https://img.shields.io/badge/Contributor-AutoGen-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" /></a>
+<a href="https://github.com/huggingface/transformers.js/pull/1714"><img src="https://img.shields.io/badge/Contributor-Transformers.js-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /></a>
 
 </div>
 
@@ -66,8 +69,21 @@ Merged PRs in production codebases used by millions of developers:
 | [**Next.js**](https://github.com/vercel/next.js) · 130k+ ⭐ | [#94934](https://github.com/vercel/next.js/pull/94934) ✅ Merged | Fixed broken Node.js inspector URL in the debugging guide — old `/en/docs/inspector` path returned 404 after Node.js restructured their docs site |
 | [**Node.js**](https://github.com/nodejs/node) · 110k+ ⭐ | [#63974](https://github.com/nodejs/node/pull/63974) ✅ Merged | Fixed incorrect `keepAliveTimeout` default value documented in `http.createServer` options |
 | [**Vercel AI SDK**](https://github.com/vercel/ai) · 25k+ ⭐ | [#16510](https://github.com/vercel/ai/pull/16510) ✅ Merged | Fixed `http://` → `https://` link in the Vercel deployment guide |
-| [**LangChain.js**](https://github.com/langchain-ai/langchainjs) · 17k+ ⭐ | [#11128](https://github.com/langchain-ai/langchainjs/pull/11128) 🔄 Open | Fixed grammar typo in Groq provider JSDoc (`limits ensures` → `limit ensures`) |
+| [**FastAPI**](https://github.com/tiangolo/fastapi) · 100k+ ⭐ | [#15903](https://github.com/fastapi/fastapi/pull/15903) 🔄 Open | Fixed 6 broken Pydantic v2 doc links across 4 files — Pydantic restructured `/usage/` paths to `/concepts/` in v2, all old URLs returned 404 |
+| [**AutoGen**](https://github.com/microsoft/autogen) · 59k+ ⭐ | [#7903](https://github.com/microsoft/autogen/pull/7903) 🔄 Open | Fixed `AttributeError` crash in OpenAI streaming client — `chunk.model` was accessed before `None` guard, crashing when API yields `None` sentinel chunks |
+| [**Transformers.js**](https://github.com/huggingface/transformers.js) · 13k+ ⭐ | [#1714](https://github.com/huggingface/transformers.js/pull/1714) 🔄 Open | Fixed `RawAudio.toBlob()` corrupting WAV output for TypedArray subarrays — `chunk.buffer` returned full backing buffer; fixed with `new Uint8Array(c.buffer, c.byteOffset, c.byteLength)` |
+| [**LangChain.js**](https://github.com/langchain-ai/langchainjs) · 17k+ ⭐ | [#11128](https://github.com/langchain-ai/langchainjs/pull/11128) 🔄 Open | Fixed silent constructor param drops in Groq provider — `reasoningFormat`, `serviceTier`, `topLogprobs` were defined but never assigned; added missing assignments + JSDoc |
 | [**Prisma**](https://github.com/prisma/prisma) · 46k+ ⭐ | [#29678](https://github.com/prisma/prisma/pull/29678) 🔄 Open | Removed duplicate words across 5 test comments and descriptions |
+
+### 🎯 Next Targets
+
+| Project | Stars | Planned Fix |
+|---------|-------|------------|
+| [**Expo**](https://github.com/expo/expo) | 37k+ ⭐ | Android `SoundResolver` rejects valid `content://` URIs for custom notification sounds |
+| [**Fastify**](https://github.com/fastify/fastify) | 36k+ ⭐ | Misleading JSDoc on lifecycle hooks — body parsing timing described incorrectly |
+| [**Nuxt**](https://github.com/nuxt/nuxt) | 57k+ ⭐ | `createError` docs don't clarify client-side data access path (`error.value.data.data`) |
+| [**openai-node**](https://github.com/openai/openai-node) | 10k+ ⭐ | Type definition gaps for newly released model names |
+| [**Remix**](https://github.com/remix-run/remix) | 33k+ ⭐ | Missing JSDoc parameter descriptions in runtime component types |
 
 ## 📦 Own Open Source
 
@@ -104,6 +120,7 @@ Merged PRs in production codebases used by millions of developers:
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
@@ -123,6 +140,8 @@ Merged PRs in production codebases used by millions of developers:
 ![MCP](https://img.shields.io/badge/MCP_Servers-6366F1?style=flat-square&logo=anthropic&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-FF6B35?style=flat-square&logoColor=white)
 ![Make](https://img.shields.io/badge/Make-6D00CC?style=flat-square&logo=make&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 **Voice AI**
 
